@@ -9,7 +9,7 @@ pipeline {
         }
         stage('installations') {
             steps {
-                bat 'whoami'
+                bat 'pip install python'
             }
         }
         stage('game') {
