@@ -9,7 +9,7 @@ pipeline {
         }
         stage('installations') {
             steps {
-                sh 'pip install python'
+                sh 'whoami'
             }
         }
         stage('game') {
