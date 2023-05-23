@@ -10,7 +10,7 @@ pipeline {
         stage('game') {
             steps {
                 echo 'let us play a game'
-                sh 'python --version'
+                sh 'python3 --version'
             }
         }
     }
