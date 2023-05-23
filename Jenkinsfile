@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Hello') {
+        stage('installations') {
             steps {
                 sh 'pip install python'
             }
